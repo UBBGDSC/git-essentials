@@ -19,5 +19,3 @@ Let's explore the functionality of interactive rebase, focusing on squashing com
 
 4. **Picking Commits:**
    - Illustrate how to pick specific commits and rearrange their order using `git rebase -i`.
-
-Encourage participants to practice these steps on a sample repository, explaining how each action influences the commit history and emphasizing the importance of caution when altering shared commit history.
