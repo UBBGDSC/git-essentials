@@ -1,27 +1,20 @@
 # Adding a new SSH key to your GitHub account
 
-## About addition of SSH keys to your account
-
-You can access and write data in repositories on GitHub.com using SSH (Secure Shell Protocol). After generating an SSH key pair, you need to add the public key to GitHub.com for SSH access.
-
-1. Check for existing SSH keys.
-2. Generate a new SSH key and add it to your machine's SSH agent.
-
-## Adding a new SSH key to your account
-
-1. Copy the SSH public key to your clipboard. Use the following command, replacing the filename if necessary:
+1. Copy the SSH public key to your clipboard. Use the following command, replacing the filename:
 
    ```bash
-   $ clip < ~/.ssh/id_ed25519.pub
+   $ clip < ~/.ssh/{filename}.pub
    ```
 
-   Notes:
+   <details>
 
    - On Windows Subsystem for Linux (WSL), you can use `clip.exe`. Otherwise, locate the hidden `.ssh` folder and copy the key manually.
    - On newer versions of Windows with PowerShell, you may use:
      ```bash
-     $ cat ~/.ssh/id_ed25519.pub | clip
+     $ cat ~/.ssh/{filename}.pub | clip
      ```
+     
+   </details>
 
 2. In the upper-right corner of any GitHub page, click your profile photo, then click **Settings**.
 
