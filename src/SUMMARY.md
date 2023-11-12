@@ -3,8 +3,9 @@
 [Introduction](README.md)
 
 # What is Git?
-- [Chapter 1](./chapter-1.md)
-- [Exercise 1](./exercise-1/exercise-1.md)
+- [Git Introduction](./chapter-1.md)
+- [Basic Git Concepts](./chapter-1.1.md)
+- [Exercise: Creating a Repository](./exercise-1/exercise-1.md)
     - [Generate SSH Keys in Windows](./exercise-1/generate-ssh-windows.md)
     - [Generate SSH Keys in Linux](./exercise-1/generate-ssh-linux.md)
     - [Add SSH Key](./exercise-1/add-ssh-key.md)
@@ -18,8 +19,9 @@
 ---
 
 # Rebase, Resolve, Revise
-- [Chapter 2](./chapter-2.md)
-- [Exercise 2](./exercise-2/exercise-2.md)
+- [Collaboration in Git](./chapter-2.md)
+- [Visualize Git Commands](./chapter-2.1.md)
+- [Exercise: Merge Conflicts](./exercise-2/exercise-2.md)
     - [Clone Repository](./exercise-2/clone-repo.md)
     - [Add Personal Information](./exercise-2/add-personal-info.md)
     - [Create Pull Requests](./exercise-2/create-pull-requests.md)
