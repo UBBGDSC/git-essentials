@@ -8,21 +8,23 @@
 
    <details>
    <summary>Alternative for Windows users</summary>
-   - On Windows Subsystem for Linux (WSL), you can use `clip.exe`. Otherwise, locate the hidden `.ssh` folder and copy the key manually.
-   - On newer versions of Windows with PowerShell, you may use:
-     ```bash
-     $ cat ~/.ssh/{filename}.pub | clip
-     ```
-     
+   On Windows Subsystem for Linux (WSL), you can use `clip.exe`. Otherwise, locate the hidden `.ssh` folder and copy the key manually.
+
+   On newer versions of Windows with PowerShell, you may use:
+      ```bash
+      $ cat ~/.ssh/{filename}.pub | clip
+      ```
+
+   Alternatively, you can just open the file and copy its contents.  
    </details>
 
 2. In the upper-right corner of any GitHub page, click your profile photo, then click **Settings**.
 
-   <img src="images/settingsLocation.png" alt="Setting Location" width="200"/>
+   <img src="images/settingsLocation.png" alt="Setting Location" height="400"/>
 
 3. In the "Access" section of the sidebar, click **SSH and GPG keys**.
 
-<img src="images/SSHandGPGkeysLocation.png" alt="Setting Location" width="200"/>
+   <img src="images/SSHandGPGkeysLocation.png" alt="Setting Location" height="400"/>
 
 4. Click **New SSH key** or **Add SSH key**.
 

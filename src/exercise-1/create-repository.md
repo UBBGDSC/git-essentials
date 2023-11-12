@@ -15,6 +15,9 @@
 
 6. Click the green "Code" button on your GitHub repository.
 7. Select the SSH option, copy the displayed URL.
+
+<img src="images/sshClone.png" alt="Setting Location" />
+
 8. Open your terminal and create a directory named "repos" in your home folder: `mkdir ~/repos`
 9. Move into the new directory: `cd ~/repos`
 10. Clone the repository using the copied URL: `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
