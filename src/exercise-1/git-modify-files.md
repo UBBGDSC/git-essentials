@@ -13,7 +13,7 @@
       **Note for MacOS users:** If your terminal reads “command not found: code,” you must head back to [Command Line Basics](#) and follow the instructions provided to allow this command to work.
    </details>
 
-2. Add “Hello Odin!” to line 3 of `README.md` and save the file with `Ctrl + S` (Mac: `Cmd + S`).
+2. Add “Hello GDSC!” to line 3 of `README.md` and save the file with `Ctrl + S` (Mac: `Cmd + S`).
 
    **Edit README using text editor**
 
