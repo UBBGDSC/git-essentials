@@ -7,7 +7,7 @@
    ```
 
    <details>
-
+   <summary>Alternative for Windows users</summary>
    - On Windows Subsystem for Linux (WSL), you can use `clip.exe`. Otherwise, locate the hidden `.ssh` folder and copy the key manually.
    - On newer versions of Windows with PowerShell, you may use:
      ```bash

@@ -1,4 +1,4 @@
-# Exercise
+# Pushing to Remote Repository
 
 ## Push Your Work to GitHub
 
@@ -11,8 +11,14 @@
 
    To be more specific, you can type `git push origin main`. Since you are not dealing with another branch (other than `main`) or a different remote, you can leave it as `git push` to save a few keystrokes.
    <details>
-      **Note:** If you receive a message that says “Support for password authentication was removed on August 13, 2021. Please use a personal access token instead,” at this point, you have followed the steps incorrectly and cloned with HTTPS, not SSH.
+      <summary>“Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.”</summary>
+      **Note:** If you receive a message that says “Support for password authentication was removed on August 13, 2021. Please use a personal access token instead,” at this point, you cloned with HTTPS, not SSH.
    </details>
+   <details>
+   <summary> What is origin?</summary>
+      The origin is the default name given to the remote repository you cloned from. You can view the remote repositories using `git remote -v`.
+   </details>
+
 
 2. Type `git status` one final time. It should output “Your branch is up to date with ‘origin/main’. Nothing to commit, working tree clean”.
 
@@ -21,4 +27,4 @@
    git status
    ```
 
-3. When you reload the repository on GitHub, you should see the `README.md` and `hello_world.txt` files that you just pushed there from your local machine.
+3. When you reload the repository on GitHub, you should see the `README.md` and `gdsc.txt` files that you just pushed there from your local machine.

@@ -1,4 +1,4 @@
-# Cheatsheet
+# Git Essentials Cheatsheet
 
 Here's a reference list of commonly used Git commands:
 

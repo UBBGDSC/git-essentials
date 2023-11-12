@@ -1,4 +1,4 @@
-# Exercise
+# Modify Files
 
 ## Modify a File or Two
 
@@ -10,12 +10,11 @@
    ```
 
    <details>
-      **Note for MacOS users:** If your terminal reads “command not found: code,” you must head back to [Command Line Basics](#) and follow the instructions provided to allow this command to work.
+   <summary>What if I don’t have Visual Studio Code?</summary>
+      In that case, you can use any text editor of your choice. If you’re using Windows, you can use Notepad. If you’re using Mac, you can use TextEdit. If you’re using a smart fridge, how did you get that in here?
    </details>
 
 2. Add “Hello GDSC!” to line 3 of `README.md` and save the file with `Ctrl + S` (Mac: `Cmd + S`).
-
-   **Edit README using text editor**
 
 3. Go back to your terminal, or if you’re using Visual Studio Code, you can open the built-in terminal by pressing `Ctrl + \` (backtick). Then type `git status`. You’ll notice that `README.md` is now shown as not staged or committed.
 
@@ -31,20 +30,28 @@
    git add README.md
    ```
 
-   **Can you guess what `git status` will output now?** `README.md` will be displayed in green text. That means `README.md` has been added to the staging area. The file `hello_world.txt` will not show up because it has not been modified since it was committed.
+   **Can you guess what `git status` will output now?** `README.md` will be displayed in green text. That means `README.md` has been added to the staging area.
 
-5. Open `hello_world.txt`, add some text to it, save it, and stage it. You can use `git add .` to add all files in the current directory and all subsequent directories to the staging area. Then, type `git status` once more, and everything should now be in the staging area.
+5. Open `gdsc.txt`, add your name, occupation, a favorite hobby and something you dislike, save it, and stage it. You can use `git add .` to add all files in the current directory and all subsequent directories to the staging area. Then, type `git status` once more, and everything should now be in the staging area.
+
+   Example  `gdsc.txt`
+   ```txt
+   Name: Armand
+   Occupation: Master's Student in Software Engineering at Babes-Bolyai University
+   Hobby: Playing Valorant
+   Dislike: CFR
+   ```
 
    ```bash
    # Stage all other files in repo and check repo status again using CLI
    git add .
    ```
 
-6. Finally, let’s commit all of the files that are in the staging area and add a descriptive commit message: `git commit -m "Edit README.md and hello_world.txt"`. Then, type `git status` once again, which will output “nothing to commit.”
+6. Finally, let’s commit all of the files that are in the staging area and add a descriptive commit message: `git commit -m "Edit README.md and gdsc.txt"`. Then, type `git status` once again, which will output “nothing to commit.”
 
    ```bash
    # Commit repo changes again and check repo status again using CLI
-   git commit -m "Edit README.md and hello_world.txt"
+   git commit -m "Edit README.md and gdsc.txt"
    git status
    ```
 
